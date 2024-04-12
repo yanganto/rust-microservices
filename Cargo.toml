@@ -69,9 +69,9 @@ shell = ["settings", "amplify/parse_arg", "serde", "_config", "shellexpand"]
 
 # Internally used features for convenience
 _config = []
-_rpc = ["zmq"]
+_rpc = ["zmq_feature"]
 
 serde = ["serde_crate", "serde_with", "amplify/serde", "internet2/serde", "toml"]
 peer = ["node", "internet2/keygen"]
-zmq = ["dep:zmq", "internet2/zmq"]
+zmq_feature = ["zmq", "internet2/zmq"]
 tor = ["internet2/tor"]
