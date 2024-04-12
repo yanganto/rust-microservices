@@ -44,7 +44,7 @@ extern crate clap;
 #[cfg_attr(feature = "_rpc", macro_use)]
 extern crate log;
 #[cfg(feature = "zmq")]
-extern crate zmq2 as zmq;
+extern crate zmq;
 
 #[cfg(feature = "cli")]
 pub mod cli;
